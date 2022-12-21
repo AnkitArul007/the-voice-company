@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+
+@font-face {
+  font-family: "Agriculture";
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: "Regular";
+  src: url(/fonts/Agriculture.ttf) format("ttf");
+}
+
+// variables
+$white_text_color: #ffffff;
+$deep_red_text_color: #ff4554;
+$coral_text_color: #fc9f16;
+$aqua_text_color: #0ee8c3;
+$light_red_text_color: #ee3c78;
+$black_bg: #0a0a0a;
+
+// dynamic classes
+.deep-red-text {
+  color: $deep_red_text_color;
+}
+.light-red-text {
+  color: $light_red_text_color;
+}
+.aqua-text {
+  color: $aqua_text_color;
+}
+
+.coral-text {
+  color: $coral_text_color;
+}
+
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+}
+
+// navbar styling
+
+.navbar {
+  background-color: #000000;
+  display: flex;
+  justify-content: space-between;
+  padding: 2.5rem 13rem;
+  align-items: center;
+  .nav-logo {
+    width: 34rem;
+    height: auto;
+    & img {
+      width: 80%;
+    }
+  }
+
+  .navbarLinksWrapper {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    span {
+      text-decoration: none;
+      font-size: 2rem;
+
+      &:first-child {
+        color: $white_text_color;
+        font-family: "Comfortaa";
+        width: 8rem;
+        height: 1.8rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 2.2rem;
+        text-align: center;
+      }
+      &:last-child {
+        width: 7.2rem;
+        height: 2.3rem;
+        font-family: "Agriculture";
+        font-style: normal;
+        font-weight: 400;
+        line-height: 2.6rem;
+        text-align: center;
+      }
+    }
+  }
+  .telegramIconCont {
+    background-color: $white_text_color;
+    height: 4rem;
+    width: 4rem;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    img {
+      width: 80%;
+    }
+  }
+}
+
+// all section generic styling
+.section-wrapper {
+  padding: 10rem 13rem;
+  display: grid;
+  place-items: center;
+  p {
+    font-size: 8.5rem;
+    font-weight: 400;
+    line-height: 11rem;
+    font-style: normal;
+  }
+}
+
+.hero-section {
+  background-color: $deep_red_text_color;
+  font-family: "Agriculture";
+  p {
+    color: $white_text_color;
+  }
+}
+
+.Text-SpiralArrow-Wrapper {
+  position: relative;
+  .spiralArrowCont {
+    position: absolute;
+    top: -50%;
+    right: -65%;
+  }
+}
+
+// index page
+
+// section 1
+.index-section-1-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+  justify-content: center;
+  > div:last-child {
+    display: block;
+    text-align: center;
+  }
+}
+
+// section 2
+.index-section-2-Wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Agriculture";
+}
+
+// section 3
+.index-section-3-Wrapper {
+  background: $black_bg;
+  font-family: "Agriculture";
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+  .banner-wrapper {
+    width: 100%;
+    background: $aqua_text_color;
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 2rem;
+    padding: 8rem;
+  }
+  p {
+    color: $white_text_color;
+  }
+  span {
+    font-size: 15rem;
+    line-height: 20rem;
+    color: $white_text_color;
+    display: block;
+    margin: auto;
+  }
+}
