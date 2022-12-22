@@ -1,6 +1,10 @@
 import React from 'react';
 import "../styles/copywritingBasics.scss";
 import {HiOutlineBadgeCheck} from "@react-icons/all-files/hi/HiOutlineBadgeCheck";
+import { FiClock } from "@react-icons/all-files/fi/FiClock";
+import { HiOutlineStar } from "@react-icons/all-files/hi/HiOutlineStar";
+import { AiOutlineYoutube } from "@react-icons/all-files/ai/AiOutlineYoutube";
+
 
 
 function CopywritingBasics() {
@@ -25,7 +29,7 @@ function CopywritingBasics() {
         <div className='internshipIcons'>
             <div className="iconsCont">
                 <div className="icon">
-                    <HiOutlineBadgeCheck/>
+                    <FiClock/>
                 </div>
 
                 <p className="iconText">
@@ -38,25 +42,26 @@ function CopywritingBasics() {
                 </div>
 
                 <p className="iconText">
-                    60 minute live session
+                    Completion badge
                 </p>
             </div>
             <div className="iconsCont">
             <div className="icon">
-                    <HiOutlineBadgeCheck/>
+                    <HiOutlineStar/>
+                    
                 </div>
 
                 <p className="iconText">
-                    60 minute live session
+                    Linkedin recommendation
                 </p>
             </div>
             <div className="iconsCont">
             <div className="icon">
-                    <HiOutlineBadgeCheck/>
+                    <AiOutlineYoutube/>
                 </div>
 
                 <p className="iconText">
-                    60 minute live session
+                    Session playback
                 </p>
             </div>
         </div>

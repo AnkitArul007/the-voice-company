@@ -44,17 +44,17 @@
 
     .internshipIcons{
         width: 100%;
-        transform: translateX(12rem);
+        transform: translateX(12rem)translateY(-2rem);
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 10rem;
-        border: 1px solid red;
+        // border: 1px solid red;
 
 
         .iconsCont{
             width: 36rem;
             height: 19rem;
-            border: 1px solid black;
+            // border: 1px solid black;
             display: flex;
             flex-direction: column;
             justify-content: center;
