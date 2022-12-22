@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 export default function Home() {
   return (
     <Layout>
-      <Hero className="index-section-1-Wrapper">
+      <Hero>
         <div className="index-section-1-container">
           <p>
             Nobody’s born a copywriter. It takes grit, work and practice.
