@@ -25,14 +25,13 @@ export default function Home() {
       {/* section 2 */}
       <section className="section-wrapper index-section-2-Wrapper">
         <div className="Text-SpiralArrow-Wrapper">
-          <p>
-            This is how the
-            <br />
-            sessions usually go
-          </p>
-          <div className="spiralArrowCont">
-            <img src="/images/icons/SpiralArrow.svg" alt="" />
+          <div>
+            <p>This is how the</p>
+            <div className="spiralCont">
+              <img src="/images/icons/SpiralArrow.svg" alt="" />
+            </div>
           </div>
+          <p>sessions usually go</p>
         </div>
         <div>
           <img src="/images/icons/monitor.svg" alt="" />

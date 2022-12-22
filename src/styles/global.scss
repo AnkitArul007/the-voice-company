@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Kumbh+Sans&display=swap");
+// NOTE :- using "Kumbh sans" instead of Futura
 
 @font-face {
   font-family: "Agriculture";
@@ -8,7 +9,6 @@
   font-named-instance: "Regular";
   src: url(/fonts/Agriculture.ttf) format("ttf");
 }
-
 // variables
 $white_text_color: #ffffff;
 $deep_red_text_color: #ff4554;
@@ -42,7 +42,7 @@ $black_bg: #0a0a0a;
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 45%;
 }
 
 body {
@@ -67,7 +67,7 @@ body {
   .navbarLinksWrapper {
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 4rem;
     span {
       text-decoration: none;
       font-size: 2rem;
@@ -127,15 +127,6 @@ body {
   }
 }
 
-.Text-SpiralArrow-Wrapper {
-  position: relative;
-  .spiralArrowCont {
-    position: absolute;
-    top: -50%;
-    right: -65%;
-  }
-}
-
 // index page
 
 // section 1
@@ -152,10 +143,36 @@ body {
 
 // section 2
 .index-section-2-Wrapper {
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   font-family: "Agriculture";
+  > div:last-child {
+    width: 23vw;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.Text-SpiralArrow-Wrapper {
+  display: flex;
+  flex-direction: column;
+  > div {
+    display: flex;
+    p {
+      display: flex;
+      align-items: flex-end;
+    }
+  }
+}
+
+.spiralCont {
+  width: 20vw;
+  img {
+    width: 100%;
+  }
 }
 
 // section 3
@@ -185,5 +202,31 @@ body {
     color: $white_text_color;
     display: block;
     margin: auto;
+  }
+}
+
+// footer styling
+footer {
+  background: $black_bg;
+  padding: 10rem 13rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  h1 {
+    font-family: "Kumbh sans";
+    font-size: 8.5rem;
+    color: $white_text_color;
+    text-align: center;
+    font-weight: 700;
+  }
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    a {
+      color: $white_text_color;
+      font-size: 3rem;
+    }
   }
 }
