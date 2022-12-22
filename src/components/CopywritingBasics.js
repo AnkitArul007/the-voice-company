@@ -12,7 +12,7 @@ function CopywritingBasics() {
     <section className="copywritingBasicsSection">
         <div className='icon_logo_cont'>
             <div className="basicsIcon">
-
+                <p>B</p>
             </div>
             <div className="basicsHeadings">
                 <h2 className="headingOne">
