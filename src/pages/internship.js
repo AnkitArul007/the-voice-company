@@ -1,16 +1,38 @@
-import * as React from "react";
+import React, { useState } from "react";
 import Layout from "../components/Layout";
 import Button from "../components/Button";
 import Cohort from "../components/Cohort";
-import CopywritingBasics from "../components/CopywritingBasics";
+import Hero from "../components/Hero";
+import PriceCont from "../components/PriceCont";
+import Waitlist from "../components/Waitlist";
 
 export default function Internship() {
+  const [seat, setSeat] = useState(0);
   return (
     <Layout>
-      <h1>This is the internship page</h1>
-      <Button></Button>
-      <Cohort></Cohort>
-      <CopywritingBasics></CopywritingBasics>
+      <Hero className="left-aligned-hero">
+        <div>
+          <h1>
+            A month long digital internship on advertising copywriting. 50 seats
+            per cohort.
+          </h1>
+        </div>
+      </Hero>
+      <Cohort date="15 Dec 2022" seat={seat}></Cohort>
+      {seat > 0 ? (
+        <PriceCont
+          priceColor="white-text"
+          contColor="black-bg"
+          btnTextColor="white-text"
+          btnBgColor="aqua-bg"
+        />
+      ) : (
+        <Waitlist
+          priceColor="white-text"
+          contColor="black-bg"
+          btnTextColor="black-text"
+        />
+      )}
     </Layout>
   );
 }

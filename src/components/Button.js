@@ -1,12 +1,12 @@
-import React from 'react';
+import React from "react";
 import "../styles/btn.scss";
 
-function Button() {
+function Button({ textColor, btnBgColor, btnTextColor, btnText }) {
   return (
-    <button type='button' className='btn'>
-        Pay now
+    <button type="button" className={`btn ${btnTextColor} ${btnBgColor}`}>
+      {btnText}
     </button>
-  )
+  );
 }
 
-export default Button; 
+export default Button;

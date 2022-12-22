@@ -6,7 +6,7 @@ import Copywriting from "../components/Copywriting";
 export default function Classes() {
   return (
     <Layout>
-      <Hero className="classes-section1-cont">
+      <Hero className="left-aligned-hero">
         <div>
           <p>Pick a live class that will help you &gt; Select</p>
           <p>from the next available session &gt; Pay</p>

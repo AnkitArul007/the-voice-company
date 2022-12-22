@@ -28,6 +28,14 @@ $black_bg: #0a0a0a;
   color: $aqua_text_color;
 }
 
+.black-text {
+  color: $black_bg;
+}
+
+.white-text {
+  color: $white_text_color;
+}
+
 .coral-text {
   color: $coral_text_color;
 }
@@ -40,8 +48,17 @@ $black_bg: #0a0a0a;
   background: $black_bg;
 }
 
+.aqua-bg {
+  background: $aqua_text_color;
+}
+
 .align-left {
   text-align: left;
+}
+
+.left-aligned-hero {
+  display: flex;
+  justify-content: left;
 }
 
 *,
@@ -126,6 +143,31 @@ body {
     font-weight: 400;
     line-height: 11rem;
     font-style: normal;
+  }
+  h1 {
+    font-size: 8.5rem;
+    font-weight: 400;
+    line-height: 11rem;
+    color: $white_text_color;
+  }
+}
+
+.price-wrapper {
+  display: flex;
+  padding: 10rem 13rem;
+  align-items: center;
+  justify-content: space-between;
+  h2 {
+    font-family: "Agriculture";
+    font-weight: 400;
+    line-height: 17rem;
+    font-size: 13rem;
+  }
+  p {
+    font-family: "Agriculture";
+    font-weight: 400;
+    line-height: 10rem;
+    font-size: 8rem;
   }
 }
 
@@ -262,10 +304,6 @@ body {
 }
 
 // => classes page styling
-.classes-section1-cont {
-  display: flex;
-  justify-content: left;
-}
 
 // => footer styling
 footer {
