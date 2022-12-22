@@ -1,5 +1,4 @@
 .copywritingBasicsSection{
-    border: 1px solid red;
     width: 100%;
     display: flex;
     align-items: flex-start;
@@ -79,5 +78,36 @@
                 font-size: 2rem;
             }
         }
+    }
+}
+
+.datePickerSection{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 13rem;
+    background-color: #000000;
+    
+    .calenderCont{
+        width: 30rem;
+        height: 30rem;
+        border: 2px solid black;
+        font-size: 25rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background-color: #FFFFFF;
+    }
+    
+    >h2{
+        font-family: 'Agriculture';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 7.2rem;
+        line-height: 9.2rem;
+        color: #FFFFFF;
     }
 }
