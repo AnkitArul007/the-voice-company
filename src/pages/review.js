@@ -1,10 +1,11 @@
 import * as React from "react";
 import Layout from "../components/Layout";
+import CopywritingBasics from "../components/CopywritingBasics";
 
 export default function Review() {
   return (
     <Layout>
-      <h1>This is the review page</h1>
+      <CopywritingBasics></CopywritingBasics>
     </Layout>
   );
 }
