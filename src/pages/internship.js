@@ -25,6 +25,7 @@ export default function Internship() {
           contColor="black-bg"
           btnTextColor="white-text"
           btnBgColor="aqua-bg"
+          price="999"
         />
       ) : (
         <Waitlist

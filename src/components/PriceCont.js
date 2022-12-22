@@ -7,12 +7,13 @@ export default function PriceCont({
   priceColor,
   btnTextColor,
   btnBgColor,
+  price,
 }) {
   return (
     <section className={`${contColor} price-wrapper`}>
       <div>
         <Price className={priceColor}>
-          <h2>INR 999</h2>
+          <h2>INR {price}</h2>
         </Price>
       </div>
       <div>
