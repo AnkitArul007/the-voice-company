@@ -10,7 +10,7 @@ export default function PriceCont({
   price,
 }) {
   return (
-    <section className={`${contColor} price-wrapper`}>
+    <div className={`${contColor} price-wrapper`}>
       <div>
         <Price className={priceColor}>
           <h2>INR {price}</h2>
@@ -23,6 +23,6 @@ export default function PriceCont({
           btnText="Pay now"
         />
       </div>
-    </section>
+    </div>
   );
 }

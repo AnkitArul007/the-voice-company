@@ -68,6 +68,7 @@ $black_bg: #0a0a0a;
   margin: 0;
   box-sizing: border-box;
   text-decoration: none;
+  -webkit-font-smoothing: antialiased;
 }
 
 html {
@@ -86,8 +87,9 @@ body::-webkit-scrollbar {
   justify-content: space-between;
   padding: 2.5rem 13rem;
   align-items: center;
+  height: 15vh;
   .nav-logo {
-    width: 34rem;
+    width: 42rem;
     height: auto;
     & img {
       width: 80%;
@@ -137,6 +139,10 @@ body::-webkit-scrollbar {
 }
 
 // => all section generic styling
+
+section {
+  min-height: 50vh;
+}
 .section-wrapper {
   padding: 10rem 13rem;
   p {
@@ -155,7 +161,7 @@ body::-webkit-scrollbar {
 
 .price-wrapper {
   display: flex;
-  padding: 10rem 13rem;
+  padding: 13rem;
   align-items: center;
   justify-content: space-between;
   h2 {
@@ -179,6 +185,7 @@ body::-webkit-scrollbar {
   font-family: "Agriculture";
   display: grid;
   place-items: center;
+  height: 75vh;
   p {
     color: $white_text_color;
   }
@@ -186,7 +193,9 @@ body::-webkit-scrollbar {
 
 .copywriting-section {
   display: flex;
+  height: 70vh;
   flex-direction: column;
+  justify-content: center;
   gap: 3rem;
   color: $white_text_color;
   h2 {
@@ -243,6 +252,7 @@ body::-webkit-scrollbar {
 // section 2
 .index-section-2-Wrapper {
   width: 100%;
+  height: 60vh;
   display: flex;
   align-items: center;
   justify-content: center;
