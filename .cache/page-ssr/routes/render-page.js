@@ -103,6 +103,7 @@ exports.components = {
   "component---src-pages-classes-js": () => __webpack_require__.e(/*! import() | component---src-pages-classes-js */ "component---src-pages-classes-js").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/classes.js?export=default */ "./src/pages/classes.js?export=default")),
   "component---src-pages-index-js": () => __webpack_require__.e(/*! import() | component---src-pages-index-js */ "component---src-pages-index-js").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/index.js?export=default */ "./src/pages/index.js?export=default")),
   "component---src-pages-internship-js": () => __webpack_require__.e(/*! import() | component---src-pages-internship-js */ "component---src-pages-internship-js").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/internship.js?export=default */ "./src/pages/internship.js?export=default")),
+  "component---src-pages-payment-js": () => __webpack_require__.e(/*! import() | component---src-pages-payment-js */ "component---src-pages-payment-js").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/payment.js?export=default */ "./src/pages/payment.js?export=default")),
   "component---src-pages-review-js": () => __webpack_require__.e(/*! import() | component---src-pages-review-js */ "component---src-pages-review-js").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/review.js?export=default */ "./src/pages/review.js?export=default"))
 };
 
@@ -113,6 +114,7 @@ exports.head = {
   "component---src-pages-classes-js": () => __webpack_require__.e(/*! import() | component---src-pages-classes-jshead */ "component---src-pages-classes-jshead").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/classes.js?export=head */ "./src/pages/classes.js?export=head")),
   "component---src-pages-index-js": () => __webpack_require__.e(/*! import() | component---src-pages-index-jshead */ "component---src-pages-index-jshead").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/index.js?export=head */ "./src/pages/index.js?export=head")),
   "component---src-pages-internship-js": () => __webpack_require__.e(/*! import() | component---src-pages-internship-jshead */ "component---src-pages-internship-jshead").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/internship.js?export=head */ "./src/pages/internship.js?export=head")),
+  "component---src-pages-payment-js": () => __webpack_require__.e(/*! import() | component---src-pages-payment-jshead */ "component---src-pages-payment-jshead").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/payment.js?export=head */ "./src/pages/payment.js?export=head")),
   "component---src-pages-review-js": () => __webpack_require__.e(/*! import() | component---src-pages-review-jshead */ "component---src-pages-review-jshead").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/review.js?export=head */ "./src/pages/review.js?export=head"))
 };
 

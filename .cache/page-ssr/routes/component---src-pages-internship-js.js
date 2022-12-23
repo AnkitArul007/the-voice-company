@@ -1995,6 +1995,106 @@ function stripPrefix(str, prefix = ``) {
 
 /***/ }),
 
+/***/ "./src/components/Button.js":
+/*!**********************************!*\
+  !*** ./src/components/Button.js ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _styles_btn_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/btn.scss */ "./src/styles/btn.scss");
+/* harmony import */ var _styles_btn_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_btn_scss__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
+
+
+
+function Button({
+  textColor,
+  btnBgColor,
+  btnTextColor,
+  btnText
+}) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__.Link, {
+    to: "/payment"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    type: "button",
+    className: `btn ${btnTextColor} ${btnBgColor}`
+  }, btnText));
+}
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Button);
+
+/***/ }),
+
+/***/ "./src/components/Cohort.js":
+/*!**********************************!*\
+  !*** ./src/components/Cohort.js ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _styles_cohort_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/cohort.scss */ "./src/styles/cohort.scss");
+/* harmony import */ var _styles_cohort_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_cohort_scss__WEBPACK_IMPORTED_MODULE_1__);
+
+
+function Cohort({
+  date,
+  seat
+}) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
+    className: "cohortSection section-wrapper"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "cohortNumCont"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", null, seat)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "cohortHeadlinesCont"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
+    className: "cohortHeadline"
+  }, "Next cohort starts on"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
+    className: "cohortHeadlineSecond"
+  }, date), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
+    className: "cohortHeadlineThird"
+  }, seat, " seats left")));
+}
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Cohort);
+
+/***/ }),
+
+/***/ "./src/components/Hero.js":
+/*!********************************!*\
+  !*** ./src/components/Hero.js ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ Hero)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+function Hero({
+  children,
+  className
+}) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
+    className: `section-wrapper hero-section ${className}`
+  }, children);
+}
+
+/***/ }),
+
 /***/ "./src/components/Layout.js":
 /*!**********************************!*\
   !*** ./src/components/Layout.js ***!
@@ -2085,6 +2185,106 @@ function Navbar() {
 
 /***/ }),
 
+/***/ "./src/components/Price.js":
+/*!*********************************!*\
+  !*** ./src/components/Price.js ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ Price)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+function Price({
+  children,
+  className
+}) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: `priceBtn ${className}`
+  }, children);
+}
+
+/***/ }),
+
+/***/ "./src/components/PriceCont.js":
+/*!*************************************!*\
+  !*** ./src/components/PriceCont.js ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ PriceCont)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Price__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Price */ "./src/components/Price.js");
+/* harmony import */ var _Button__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Button */ "./src/components/Button.js");
+
+
+
+function PriceCont({
+  contColor,
+  priceColor,
+  btnTextColor,
+  btnBgColor,
+  price
+}) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: `${contColor} price-wrapper`
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Price__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    className: priceColor
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "INR ", price))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Button__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    btnTextColor: btnTextColor,
+    btnBgColor: btnBgColor,
+    btnText: "Pay now"
+  })));
+}
+
+/***/ }),
+
+/***/ "./src/components/Waitlist.js":
+/*!************************************!*\
+  !*** ./src/components/Waitlist.js ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ Waitlist)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Price__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Price */ "./src/components/Price.js");
+/* harmony import */ var _Button__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Button */ "./src/components/Button.js");
+
+
+
+function Waitlist({
+  contColor,
+  priceColor,
+  btnTextColor,
+  btnBgColor
+}) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
+    className: `${contColor} price-wrapper`
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Price__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    className: priceColor
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Join the waitlist"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Button__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    btnTextColor: btnTextColor,
+    btnBgColor: btnBgColor,
+    btnText: "<email address>"
+  })));
+}
+
+/***/ }),
+
 /***/ "./src/pages/internship.js?export=default":
 /*!************************************************!*\
   !*** ./src/pages/internship.js?export=default ***!
@@ -2099,10 +2299,39 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./src/components/Layout.js");
+/* harmony import */ var _components_Button__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Button */ "./src/components/Button.js");
+/* harmony import */ var _components_Cohort__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Cohort */ "./src/components/Cohort.js");
+/* harmony import */ var _components_Hero__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Hero */ "./src/components/Hero.js");
+/* harmony import */ var _components_PriceCont__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/PriceCont */ "./src/components/PriceCont.js");
+/* harmony import */ var _components_Waitlist__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Waitlist */ "./src/components/Waitlist.js");
+
+
+
+
+
 
 
 function Internship() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "This is the internship page"));
+  const {
+    0: seat,
+    1: setSeat
+  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Hero__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    className: "left-aligned-hero"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, "A month long digital internship on advertising copywriting. 50 seats per cohort."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Cohort__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    date: "15 Dec 2022",
+    seat: seat
+  }), seat > 0 ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_PriceCont__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    priceColor: "white-text",
+    contColor: "black-bg",
+    btnTextColor: "white-text",
+    btnBgColor: "aqua-bg",
+    price: "999"
+  }) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Waitlist__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    priceColor: "white-text",
+    contColor: "black-bg",
+    btnTextColor: "black-text"
+  }));
 }
 
 /***/ }),
@@ -2942,6 +3171,26 @@ function instanceOfHashable(object) {
     return typeof object.toHashableString === 'function';
 }
 //# sourceMappingURL=typeGuess.js.map
+
+/***/ }),
+
+/***/ "./src/styles/btn.scss":
+/*!*****************************!*\
+  !*** ./src/styles/btn.scss ***!
+  \*****************************/
+/***/ (() => {
+
+
+
+/***/ }),
+
+/***/ "./src/styles/cohort.scss":
+/*!********************************!*\
+  !*** ./src/styles/cohort.scss ***!
+  \********************************/
+/***/ (() => {
+
+
 
 /***/ }),
 

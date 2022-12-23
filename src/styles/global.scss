@@ -3,11 +3,9 @@
 
 @font-face {
   font-family: "Agriculture";
-  font-weight: 100 900;
   font-display: swap;
   font-style: normal;
-  font-named-instance: "Regular";
-  src: url(/fonts/Agriculture.ttf) format("ttf");
+  src: url(/fonts/Agriculture.ttf) format("truetype");
 }
 // => variables
 $white_text_color: #ffffff;

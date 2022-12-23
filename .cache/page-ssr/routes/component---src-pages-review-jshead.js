@@ -2,6 +2,383 @@ exports.id = "component---src-pages-review-jshead";
 exports.ids = ["component---src-pages-review-jshead"];
 exports.modules = {
 
+/***/ "./node_modules/@react-icons/all-files/ai/AiOutlineYoutube.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/@react-icons/all-files/ai/AiOutlineYoutube.js ***!
+  \********************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+// THIS FILE IS AUTO GENERATED
+var GenIcon = (__webpack_require__(/*! ../lib */ "./node_modules/@react-icons/all-files/lib/esm/index.js").GenIcon)
+module.exports.AiOutlineYoutube = function AiOutlineYoutube (props) {
+  return GenIcon({"tag":"svg","attr":{"viewBox":"0 0 1024 1024"},"child":[{"tag":"path","attr":{"d":"M960 509.2c0-2.2 0-4.7-.1-7.6-.1-8.1-.3-17.2-.5-26.9-.8-27.9-2.2-55.7-4.4-81.9-3-36.1-7.4-66.2-13.4-88.8a139.52 139.52 0 0 0-98.3-98.5c-28.3-7.6-83.7-12.3-161.7-15.2-37.1-1.4-76.8-2.3-116.5-2.8-13.9-.2-26.8-.3-38.4-.4h-29.4c-11.6.1-24.5.2-38.4.4-39.7.5-79.4 1.4-116.5 2.8-78 3-133.5 7.7-161.7 15.2A139.35 139.35 0 0 0 82.4 304C76.3 326.6 72 356.7 69 392.8c-2.2 26.2-3.6 54-4.4 81.9-.3 9.7-.4 18.8-.5 26.9 0 2.9-.1 5.4-.1 7.6v5.6c0 2.2 0 4.7.1 7.6.1 8.1.3 17.2.5 26.9.8 27.9 2.2 55.7 4.4 81.9 3 36.1 7.4 66.2 13.4 88.8 12.8 47.9 50.4 85.7 98.3 98.5 28.2 7.6 83.7 12.3 161.7 15.2 37.1 1.4 76.8 2.3 116.5 2.8 13.9.2 26.8.3 38.4.4h29.4c11.6-.1 24.5-.2 38.4-.4 39.7-.5 79.4-1.4 116.5-2.8 78-3 133.5-7.7 161.7-15.2 47.9-12.8 85.5-50.5 98.3-98.5 6.1-22.6 10.4-52.7 13.4-88.8 2.2-26.2 3.6-54 4.4-81.9.3-9.7.4-18.8.5-26.9 0-2.9.1-5.4.1-7.6v-5.6zm-72 5.2c0 2.1 0 4.4-.1 7.1-.1 7.8-.3 16.4-.5 25.7-.7 26.6-2.1 53.2-4.2 77.9-2.7 32.2-6.5 58.6-11.2 76.3-6.2 23.1-24.4 41.4-47.4 47.5-21 5.6-73.9 10.1-145.8 12.8-36.4 1.4-75.6 2.3-114.7 2.8-13.7.2-26.4.3-37.8.3h-28.6l-37.8-.3c-39.1-.5-78.2-1.4-114.7-2.8-71.9-2.8-124.9-7.2-145.8-12.8-23-6.2-41.2-24.4-47.4-47.5-4.7-17.7-8.5-44.1-11.2-76.3-2.1-24.7-3.4-51.3-4.2-77.9-.3-9.3-.4-18-.5-25.7 0-2.7-.1-5.1-.1-7.1v-4.8c0-2.1 0-4.4.1-7.1.1-7.8.3-16.4.5-25.7.7-26.6 2.1-53.2 4.2-77.9 2.7-32.2 6.5-58.6 11.2-76.3 6.2-23.1 24.4-41.4 47.4-47.5 21-5.6 73.9-10.1 145.8-12.8 36.4-1.4 75.6-2.3 114.7-2.8 13.7-.2 26.4-.3 37.8-.3h28.6l37.8.3c39.1.5 78.2 1.4 114.7 2.8 71.9 2.8 124.9 7.2 145.8 12.8 23 6.2 41.2 24.4 47.4 47.5 4.7 17.7 8.5 44.1 11.2 76.3 2.1 24.7 3.4 51.3 4.2 77.9.3 9.3.4 18 .5 25.7 0 2.7.1 5.1.1 7.1v4.8zM423 646l232-135-232-133z"}}]})(props);
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/@react-icons/all-files/fi/FiClock.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/@react-icons/all-files/fi/FiClock.js ***!
+  \***********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+// THIS FILE IS AUTO GENERATED
+var GenIcon = (__webpack_require__(/*! ../lib */ "./node_modules/@react-icons/all-files/lib/esm/index.js").GenIcon)
+module.exports.FiClock = function FiClock (props) {
+  return GenIcon({"tag":"svg","attr":{"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":"2","strokeLinecap":"round","strokeLinejoin":"round"},"child":[{"tag":"circle","attr":{"cx":"12","cy":"12","r":"10"}},{"tag":"polyline","attr":{"points":"12 6 12 12 16 14"}}]})(props);
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/@react-icons/all-files/hi/HiOutlineBadgeCheck.js":
+/*!***********************************************************************!*\
+  !*** ./node_modules/@react-icons/all-files/hi/HiOutlineBadgeCheck.js ***!
+  \***********************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+// THIS FILE IS AUTO GENERATED
+var GenIcon = (__webpack_require__(/*! ../lib */ "./node_modules/@react-icons/all-files/lib/esm/index.js").GenIcon)
+module.exports.HiOutlineBadgeCheck = function HiOutlineBadgeCheck (props) {
+  return GenIcon({"tag":"svg","attr":{"fill":"none","viewBox":"0 0 24 24","stroke":"currentColor"},"child":[{"tag":"path","attr":{"strokeLinecap":"round","strokeLinejoin":"round","strokeWidth":"2","d":"M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"}}]})(props);
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/@react-icons/all-files/hi/HiOutlineStar.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/@react-icons/all-files/hi/HiOutlineStar.js ***!
+  \*****************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+// THIS FILE IS AUTO GENERATED
+var GenIcon = (__webpack_require__(/*! ../lib */ "./node_modules/@react-icons/all-files/lib/esm/index.js").GenIcon)
+module.exports.HiOutlineStar = function HiOutlineStar (props) {
+  return GenIcon({"tag":"svg","attr":{"fill":"none","viewBox":"0 0 24 24","stroke":"currentColor"},"child":[{"tag":"path","attr":{"strokeLinecap":"round","strokeLinejoin":"round","strokeWidth":"2","d":"M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"}}]})(props);
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/@react-icons/all-files/lib/esm/iconBase.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/@react-icons/all-files/lib/esm/iconBase.js ***!
+  \*****************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "GenIcon": () => (/* binding */ GenIcon),
+/* harmony export */   "IconBase": () => (/* binding */ IconBase)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _iconContext__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./iconContext */ "./node_modules/@react-icons/all-files/lib/esm/iconContext.js");
+var __assign = undefined && undefined.__assign || function () {
+  __assign = Object.assign || function (t) {
+    for (var s, i = 1, n = arguments.length; i < n; i++) {
+      s = arguments[i];
+
+      for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
+    }
+
+    return t;
+  };
+
+  return __assign.apply(this, arguments);
+};
+
+var __rest = undefined && undefined.__rest || function (s, e) {
+  var t = {};
+
+  for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0) t[p] = s[p];
+
+  if (s != null && typeof Object.getOwnPropertySymbols === "function") for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) {
+    if (e.indexOf(p[i]) < 0 && Object.prototype.propertyIsEnumerable.call(s, p[i])) t[p[i]] = s[p[i]];
+  }
+  return t;
+};
+
+
+
+
+function Tree2Element(tree) {
+  return tree && tree.map(function (node, i) {
+    return react__WEBPACK_IMPORTED_MODULE_0___default().createElement(node.tag, __assign({
+      key: i
+    }, node.attr), Tree2Element(node.child));
+  });
+}
+
+function GenIcon(data) {
+  return function (props) {
+    return react__WEBPACK_IMPORTED_MODULE_0___default().createElement(IconBase, __assign({
+      attr: __assign({}, data.attr)
+    }, props), Tree2Element(data.child));
+  };
+}
+function IconBase(props) {
+  var elem = function (conf) {
+    var attr = props.attr,
+        size = props.size,
+        title = props.title,
+        svgProps = __rest(props, ["attr", "size", "title"]);
+
+    var computedSize = size || conf.size || "1em";
+    var className;
+    if (conf.className) className = conf.className;
+    if (props.className) className = (className ? className + ' ' : '') + props.className;
+    return react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", __assign({
+      stroke: "currentColor",
+      fill: "currentColor",
+      strokeWidth: "0"
+    }, conf.attr, attr, svgProps, {
+      className: className,
+      style: __assign(__assign({
+        color: props.color || conf.color
+      }, conf.style), props.style),
+      height: computedSize,
+      width: computedSize,
+      xmlns: "http://www.w3.org/2000/svg"
+    }), title && react__WEBPACK_IMPORTED_MODULE_0___default().createElement("title", null, title), props.children);
+  };
+
+  return _iconContext__WEBPACK_IMPORTED_MODULE_1__.IconContext !== undefined ? react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_iconContext__WEBPACK_IMPORTED_MODULE_1__.IconContext.Consumer, null, function (conf) {
+    return elem(conf);
+  }) : elem(_iconContext__WEBPACK_IMPORTED_MODULE_1__.DefaultContext);
+}
+
+/***/ }),
+
+/***/ "./node_modules/@react-icons/all-files/lib/esm/iconContext.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/@react-icons/all-files/lib/esm/iconContext.js ***!
+  \********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "DefaultContext": () => (/* binding */ DefaultContext),
+/* harmony export */   "IconContext": () => (/* binding */ IconContext)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+var DefaultContext = {
+  color: undefined,
+  size: undefined,
+  className: undefined,
+  style: undefined,
+  attr: undefined
+};
+var IconContext = (react__WEBPACK_IMPORTED_MODULE_0___default().createContext) && react__WEBPACK_IMPORTED_MODULE_0___default().createContext(DefaultContext);
+
+/***/ }),
+
+/***/ "./node_modules/@react-icons/all-files/lib/esm/iconsManifest.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/@react-icons/all-files/lib/esm/iconsManifest.js ***!
+  \**********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "IconsManifest": () => (/* binding */ IconsManifest)
+/* harmony export */ });
+var IconsManifest = [
+  {
+    "id": "fa",
+    "name": "Font Awesome",
+    "projectUrl": "https://fontawesome.com/",
+    "license": "CC BY 4.0 License",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "id": "io",
+    "name": "Ionicons 4",
+    "projectUrl": "https://ionicons.com/",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/ionic-team/ionicons/blob/master/LICENSE"
+  },
+  {
+    "id": "io5",
+    "name": "Ionicons 5",
+    "projectUrl": "https://ionicons.com/",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/ionic-team/ionicons/blob/master/LICENSE"
+  },
+  {
+    "id": "md",
+    "name": "Material Design icons",
+    "projectUrl": "http://google.github.io/material-design-icons/",
+    "license": "Apache License Version 2.0",
+    "licenseUrl": "https://github.com/google/material-design-icons/blob/master/LICENSE"
+  },
+  {
+    "id": "ti",
+    "name": "Typicons",
+    "projectUrl": "http://s-ings.com/typicons/",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  {
+    "id": "go",
+    "name": "Github Octicons icons",
+    "projectUrl": "https://octicons.github.com/",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/primer/octicons/blob/master/LICENSE"
+  },
+  {
+    "id": "fi",
+    "name": "Feather",
+    "projectUrl": "https://feathericons.com/",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/feathericons/feather/blob/master/LICENSE"
+  },
+  {
+    "id": "gi",
+    "name": "Game Icons",
+    "projectUrl": "https://game-icons.net/",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
+  },
+  {
+    "id": "wi",
+    "name": "Weather Icons",
+    "projectUrl": "https://erikflowers.github.io/weather-icons/",
+    "license": "SIL OFL 1.1",
+    "licenseUrl": "http://scripts.sil.org/OFL"
+  },
+  {
+    "id": "di",
+    "name": "Devicons",
+    "projectUrl": "https://vorillaz.github.io/devicons/",
+    "license": "MIT",
+    "licenseUrl": "https://opensource.org/licenses/MIT"
+  },
+  {
+    "id": "ai",
+    "name": "Ant Design Icons",
+    "projectUrl": "https://github.com/ant-design/ant-design-icons",
+    "license": "MIT",
+    "licenseUrl": "https://opensource.org/licenses/MIT"
+  },
+  {
+    "id": "bs",
+    "name": "Bootstrap Icons",
+    "projectUrl": "https://github.com/twbs/icons",
+    "license": "MIT",
+    "licenseUrl": "https://opensource.org/licenses/MIT"
+  },
+  {
+    "id": "ri",
+    "name": "Remix Icon",
+    "projectUrl": "https://github.com/Remix-Design/RemixIcon",
+    "license": "Apache License Version 2.0",
+    "licenseUrl": "http://www.apache.org/licenses/"
+  },
+  {
+    "id": "fc",
+    "name": "Flat Color Icons",
+    "projectUrl": "https://github.com/icons8/flat-color-icons",
+    "license": "MIT",
+    "licenseUrl": "https://opensource.org/licenses/MIT"
+  },
+  {
+    "id": "gr",
+    "name": "Grommet-Icons",
+    "projectUrl": "https://github.com/grommet/grommet-icons",
+    "license": "Apache License Version 2.0",
+    "licenseUrl": "http://www.apache.org/licenses/"
+  },
+  {
+    "id": "hi",
+    "name": "Heroicons",
+    "projectUrl": "https://github.com/refactoringui/heroicons",
+    "license": "MIT",
+    "licenseUrl": "https://opensource.org/licenses/MIT"
+  },
+  {
+    "id": "si",
+    "name": "Simple Icons",
+    "projectUrl": "https://simpleicons.org/",
+    "license": "CC0 1.0 Universal",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  {
+    "id": "im",
+    "name": "IcoMoon Free",
+    "projectUrl": "https://github.com/Keyamoon/IcoMoon-Free",
+    "license": "CC BY 4.0 License"
+  },
+  {
+    "id": "bi",
+    "name": "BoxIcons",
+    "projectUrl": "https://github.com/atisawd/boxicons",
+    "license": "CC BY 4.0 License"
+  },
+  {
+    "id": "cg",
+    "name": "css.gg",
+    "projectUrl": "https://github.com/astrit/css.gg",
+    "license": "MIT",
+    "licenseUrl": "https://opensource.org/licenses/MIT"
+  },
+  {
+    "id": "vsc",
+    "name": "VS Code Icons",
+    "projectUrl": "https://github.com/microsoft/vscode-codicons",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+  }
+]
+
+/***/ }),
+
+/***/ "./node_modules/@react-icons/all-files/lib/esm/index.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/@react-icons/all-files/lib/esm/index.js ***!
+  \**************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "DefaultContext": () => (/* reexport safe */ _iconContext__WEBPACK_IMPORTED_MODULE_2__.DefaultContext),
+/* harmony export */   "GenIcon": () => (/* reexport safe */ _iconBase__WEBPACK_IMPORTED_MODULE_1__.GenIcon),
+/* harmony export */   "IconBase": () => (/* reexport safe */ _iconBase__WEBPACK_IMPORTED_MODULE_1__.IconBase),
+/* harmony export */   "IconContext": () => (/* reexport safe */ _iconContext__WEBPACK_IMPORTED_MODULE_2__.IconContext),
+/* harmony export */   "IconsManifest": () => (/* reexport safe */ _iconsManifest__WEBPACK_IMPORTED_MODULE_0__.IconsManifest)
+/* harmony export */ });
+/* harmony import */ var _iconsManifest__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./iconsManifest */ "./node_modules/@react-icons/all-files/lib/esm/iconsManifest.js");
+/* harmony import */ var _iconBase__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./iconBase */ "./node_modules/@react-icons/all-files/lib/esm/iconBase.js");
+/* harmony import */ var _iconContext__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./iconContext */ "./node_modules/@react-icons/all-files/lib/esm/iconContext.js");
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@react-icons/all-files/md/MdDateRange.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/@react-icons/all-files/md/MdDateRange.js ***!
+  \***************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+// THIS FILE IS AUTO GENERATED
+var GenIcon = (__webpack_require__(/*! ../lib */ "./node_modules/@react-icons/all-files/lib/esm/index.js").GenIcon)
+module.exports.MdDateRange = function MdDateRange (props) {
+  return GenIcon({"tag":"svg","attr":{"viewBox":"0 0 24 24"},"child":[{"tag":"path","attr":{"d":"M9 11H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm2-7h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z"}}]})(props);
+};
+
+
+/***/ }),
+
 /***/ "./node_modules/gatsby-page-utils/dist/apply-trailing-slash-option.js":
 /*!****************************************************************************!*\
   !*** ./node_modules/gatsby-page-utils/dist/apply-trailing-slash-option.js ***!
@@ -1995,6 +2372,133 @@ function stripPrefix(str, prefix = ``) {
 
 /***/ }),
 
+/***/ "./src/components/Button.js":
+/*!**********************************!*\
+  !*** ./src/components/Button.js ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _styles_btn_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/btn.scss */ "./src/styles/btn.scss");
+/* harmony import */ var _styles_btn_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_btn_scss__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
+
+
+
+function Button({
+  textColor,
+  btnBgColor,
+  btnTextColor,
+  btnText
+}) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__.Link, {
+    to: "/payment"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    type: "button",
+    className: `btn ${btnTextColor} ${btnBgColor}`
+  }, btnText));
+}
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Button);
+
+/***/ }),
+
+/***/ "./src/components/CopywritingBasics.js":
+/*!*********************************************!*\
+  !*** ./src/components/CopywritingBasics.js ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _styles_copywritingBasics_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/copywritingBasics.scss */ "./src/styles/copywritingBasics.scss");
+/* harmony import */ var _styles_copywritingBasics_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_copywritingBasics_scss__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _react_icons_all_files_hi_HiOutlineBadgeCheck__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @react-icons/all-files/hi/HiOutlineBadgeCheck */ "./node_modules/@react-icons/all-files/hi/HiOutlineBadgeCheck.js");
+/* harmony import */ var _react_icons_all_files_fi_FiClock__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @react-icons/all-files/fi/FiClock */ "./node_modules/@react-icons/all-files/fi/FiClock.js");
+/* harmony import */ var _react_icons_all_files_hi_HiOutlineStar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @react-icons/all-files/hi/HiOutlineStar */ "./node_modules/@react-icons/all-files/hi/HiOutlineStar.js");
+/* harmony import */ var _react_icons_all_files_ai_AiOutlineYoutube__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @react-icons/all-files/ai/AiOutlineYoutube */ "./node_modules/@react-icons/all-files/ai/AiOutlineYoutube.js");
+/* harmony import */ var _react_icons_all_files_md_MdDateRange__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @react-icons/all-files/md/MdDateRange */ "./node_modules/@react-icons/all-files/md/MdDateRange.js");
+
+
+
+
+
+
+
+function CopywritingBasics() {
+  const ref = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)(null);
+  const handleClick = () => {
+    ref.current.focus();
+  };
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
+    className: "copywritingBasicsSection"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "icon_logo_cont"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "basicsIcon"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "B")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "basicsHeadings"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
+    className: "headingOne"
+  }, "Basics of \xA0"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
+    className: "headingTwo"
+  }, "copywriting"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "verticalLine"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "internshipIcons"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "iconsCont"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "icon"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_react_icons_all_files_fi_FiClock__WEBPACK_IMPORTED_MODULE_2__.FiClock, null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "iconText"
+  }, "60 minute live session")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "iconsCont"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "icon"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_react_icons_all_files_hi_HiOutlineBadgeCheck__WEBPACK_IMPORTED_MODULE_3__.HiOutlineBadgeCheck, null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "iconText"
+  }, "Completion badge")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "iconsCont"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "icon"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_react_icons_all_files_hi_HiOutlineStar__WEBPACK_IMPORTED_MODULE_4__.HiOutlineStar, null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "iconText"
+  }, "Linkedin recommendation")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "iconsCont"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "icon"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_react_icons_all_files_ai_AiOutlineYoutube__WEBPACK_IMPORTED_MODULE_5__.AiOutlineYoutube, null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "iconText"
+  }, "Session playback")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
+    className: "datePickerSection"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "calenderCont"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_react_icons_all_files_md_MdDateRange__WEBPACK_IMPORTED_MODULE_6__.MdDateRange, null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Pick a", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("label", {
+    htmlFor: "bookingDate",
+    onClick: handleClick
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    type: "date",
+    name: "bookingDate",
+    id: "bookingDate",
+    ref: ref,
+    min: new Date().toISOString().slice(0, 10)
+  }), "\xA0Date\xA0"), "that works for you")));
+}
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (CopywritingBasics);
+
+/***/ }),
+
 /***/ "./src/components/Layout.js":
 /*!**********************************!*\
   !*** ./src/components/Layout.js ***!
@@ -2085,6 +2589,69 @@ function Navbar() {
 
 /***/ }),
 
+/***/ "./src/components/Price.js":
+/*!*********************************!*\
+  !*** ./src/components/Price.js ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ Price)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+function Price({
+  children,
+  className
+}) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: `priceBtn ${className}`
+  }, children);
+}
+
+/***/ }),
+
+/***/ "./src/components/PriceCont.js":
+/*!*************************************!*\
+  !*** ./src/components/PriceCont.js ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ PriceCont)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Price__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Price */ "./src/components/Price.js");
+/* harmony import */ var _Button__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Button */ "./src/components/Button.js");
+
+
+
+function PriceCont({
+  contColor,
+  priceColor,
+  btnTextColor,
+  btnBgColor,
+  price
+}) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: `${contColor} price-wrapper`
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Price__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    className: priceColor
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "INR ", price))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Button__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    btnTextColor: btnTextColor,
+    btnBgColor: btnBgColor,
+    btnText: "Pay now"
+  })));
+}
+
+/***/ }),
+
 /***/ "./src/pages/review.js?export=head":
 /*!*****************************************!*\
   !*** ./src/pages/review.js?export=head ***!
@@ -2099,10 +2666,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./src/components/Layout.js");
+/* harmony import */ var _components_CopywritingBasics__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/CopywritingBasics */ "./src/components/CopywritingBasics.js");
+/* harmony import */ var _components_PriceCont__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/PriceCont */ "./src/components/PriceCont.js");
+
+
 
 
 function Review() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "This is the review page"));
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_CopywritingBasics__WEBPACK_IMPORTED_MODULE_2__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_PriceCont__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    priceColor: "black-text",
+    btnTextColor: "white-text",
+    btnBgColor: "aqua-bg",
+    price: "799"
+  }));
 }
 
 /***/ }),
@@ -2942,6 +3518,26 @@ function instanceOfHashable(object) {
     return typeof object.toHashableString === 'function';
 }
 //# sourceMappingURL=typeGuess.js.map
+
+/***/ }),
+
+/***/ "./src/styles/btn.scss":
+/*!*****************************!*\
+  !*** ./src/styles/btn.scss ***!
+  \*****************************/
+/***/ (() => {
+
+
+
+/***/ }),
+
+/***/ "./src/styles/copywritingBasics.scss":
+/*!*******************************************!*\
+  !*** ./src/styles/copywritingBasics.scss ***!
+  \*******************************************/
+/***/ (() => {
+
+
 
 /***/ }),
 
