@@ -207,6 +207,7 @@ section {
   place-items: center;
   min-height: 75vh;
   p {
+    text-align: justify;
     color: $white_text_color;
   }
 }
@@ -262,7 +263,8 @@ section {
 .index-section-1-container {
   display: flex;
   flex-direction: column;
-  gap: 10rem;
+  height: 100%;
+  justify-content: space-around;
   > div:last-child {
     display: block;
     text-align: center;
@@ -324,6 +326,7 @@ section {
   }
   p {
     color: $white_text_color;
+    text-align: justify;
   }
   span {
     font-size: 15rem;
