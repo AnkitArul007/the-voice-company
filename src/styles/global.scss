@@ -5,7 +5,7 @@
   font-family: "Agriculture";
   font-display: swap;
   font-style: normal;
-  src: url(/fonts/Agriculture.ttf) format("truetype");
+  src: url(/static/fonts/Agriculture.ttf) format("truetype");
 }
 // => variables
 $white_text_color: #ffffff;
@@ -200,7 +200,7 @@ section {
 
 .hero-section {
   background-color: $deep_red_text_color;
-  font-family: "Agriculture";
+  font-family: "Agriculture", sans-serif;
   display: grid;
   place-items: center;
   min-height: 75vh;
