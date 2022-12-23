@@ -73,6 +73,12 @@ $black_bg: #0a0a0a;
 
 html {
   font-size: 45%;
+  @media screen and (max-width: 768px) {
+    font-size: 20%;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    font-size: 30%;
+  }
 }
 
 body::-webkit-scrollbar {
@@ -88,6 +94,7 @@ body::-webkit-scrollbar {
   padding: 2.5rem 13rem;
   align-items: center;
   height: 15vh;
+
   .nav-logo {
     width: 42rem;
     height: auto;
@@ -185,7 +192,7 @@ section {
   font-family: "Agriculture";
   display: grid;
   place-items: center;
-  height: 75vh;
+  min-height: 75vh;
   p {
     color: $white_text_color;
   }
@@ -193,7 +200,7 @@ section {
 
 .copywriting-section {
   display: flex;
-  height: 70vh;
+  min-height: 70vh;
   flex-direction: column;
   justify-content: center;
   gap: 3rem;
