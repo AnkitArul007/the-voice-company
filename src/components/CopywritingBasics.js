@@ -1,12 +1,16 @@
-import React from "react";
+import React, { useRef } from "react";
 import "../styles/copywritingBasics.scss";
 import { HiOutlineBadgeCheck } from "@react-icons/all-files/hi/HiOutlineBadgeCheck";
 import { FiClock } from "@react-icons/all-files/fi/FiClock";
 import { HiOutlineStar } from "@react-icons/all-files/hi/HiOutlineStar";
 import { AiOutlineYoutube } from "@react-icons/all-files/ai/AiOutlineYoutube";
-import { MdDateRange } from "@react-icons/all-files/md/MdDateRange"
+import { MdDateRange } from "@react-icons/all-files/md/MdDateRange";
 
 function CopywritingBasics() {
+  const ref = useRef(null);
+  const handleClick = () => {
+    ref.current.focus();
+  };
   return (
     <>
       <section className="copywritingBasicsSection">
@@ -58,9 +62,22 @@ function CopywritingBasics() {
 
       <section className="datePickerSection">
         <div className="calenderCont">
-            <MdDateRange></MdDateRange>
+          <MdDateRange></MdDateRange>
         </div>
-        <h2>Pick a date that works for you</h2>
+        <h2>
+          Pick a
+          <label htmlFor="bookingDate" onClick={handleClick}>
+            <input
+              type="date"
+              name="bookingDate"
+              id="bookingDate"
+              ref={ref}
+              min={new Date().toISOString().slice(0, 10)}
+            />
+            &nbsp;Date&nbsp;
+          </label>
+          that works for you
+        </h2>
       </section>
     </>
   );

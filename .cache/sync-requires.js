@@ -10,6 +10,7 @@ exports.components = {
   "component---src-pages-classes-js": preferDefault(require("C:\\Users\\shiva\\Desktop\\trd projects\\the-voice-company\\src\\pages\\classes.js")),
   "component---src-pages-index-js": preferDefault(require("C:\\Users\\shiva\\Desktop\\trd projects\\the-voice-company\\src\\pages\\index.js")),
   "component---src-pages-internship-js": preferDefault(require("C:\\Users\\shiva\\Desktop\\trd projects\\the-voice-company\\src\\pages\\internship.js")),
+  "component---src-pages-payment-js": preferDefault(require("C:\\Users\\shiva\\Desktop\\trd projects\\the-voice-company\\src\\pages\\payment.js")),
   "component---src-pages-review-js": preferDefault(require("C:\\Users\\shiva\\Desktop\\trd projects\\the-voice-company\\src\\pages\\review.js"))
 }
 

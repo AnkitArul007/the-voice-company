@@ -5,6 +5,7 @@ exports.components = {
   "component---src-pages-classes-js": () => import("./../../../src/pages/classes.js?export=default" /* webpackChunkName: "component---src-pages-classes-js" */),
   "component---src-pages-index-js": () => import("./../../../src/pages/index.js?export=default" /* webpackChunkName: "component---src-pages-index-js" */),
   "component---src-pages-internship-js": () => import("./../../../src/pages/internship.js?export=default" /* webpackChunkName: "component---src-pages-internship-js" */),
+  "component---src-pages-payment-js": () => import("./../../../src/pages/payment.js?export=default" /* webpackChunkName: "component---src-pages-payment-js" */),
   "component---src-pages-review-js": () => import("./../../../src/pages/review.js?export=default" /* webpackChunkName: "component---src-pages-review-js" */)
 }
 
@@ -17,6 +18,7 @@ exports.head = {
   "component---src-pages-classes-js": () => import("./../../../src/pages/classes.js?export=head" /* webpackChunkName: "component---src-pages-classes-jshead" */),
   "component---src-pages-index-js": () => import("./../../../src/pages/index.js?export=head" /* webpackChunkName: "component---src-pages-index-jshead" */),
   "component---src-pages-internship-js": () => import("./../../../src/pages/internship.js?export=head" /* webpackChunkName: "component---src-pages-internship-jshead" */),
+  "component---src-pages-payment-js": () => import("./../../../src/pages/payment.js?export=head" /* webpackChunkName: "component---src-pages-payment-jshead" */),
   "component---src-pages-review-js": () => import("./../../../src/pages/review.js?export=head" /* webpackChunkName: "component---src-pages-review-jshead" */)
 }
 
