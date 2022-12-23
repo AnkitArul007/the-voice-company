@@ -19,7 +19,7 @@ function CopywritingBasics() {
             <p>B</p>
           </div>
           <div className="basicsHeadings">
-            <h2 className="headingOne">Basics of</h2>
+            <h2 className="headingOne">Basics of &nbsp;</h2>
             <h2 className="headingTwo">copywriting</h2>
           </div>
         </div>
